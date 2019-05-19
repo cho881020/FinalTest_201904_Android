@@ -29,6 +29,8 @@ public class LoginActivity extends BaseActivity {
                 String inputPw = act.pwEdt.getText().toString();
 
 
+
+
             }
         });
 
