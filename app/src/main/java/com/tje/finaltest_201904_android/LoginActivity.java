@@ -1,14 +1,13 @@
 package com.tje.finaltest_201904_android;
 
 import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.tje.finaltest_201904_android.databinding.ActivityMainBinding;
+import com.tje.finaltest_201904_android.databinding.ActivityLoginBinding;
 
-public class MainActivity extends BaseActivity {
+public class LoginActivity extends BaseActivity {
 
-    ActivityMainBinding act;
+    ActivityLoginBinding act;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +30,6 @@ public class MainActivity extends BaseActivity {
     @Override
     public void bindViews() {
 
-        act = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        act = DataBindingUtil.setContentView(this, R.layout.activity_login);
     }
 }
