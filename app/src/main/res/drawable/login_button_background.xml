@@ -8,7 +8,7 @@
                 android:endColor="#2AD0FF"
                 android:centerX="80%"/>
             <corners
-                android:radius="40dp" />
+                android:radius="30dp" />
         </shape>
     </item>
     <item
