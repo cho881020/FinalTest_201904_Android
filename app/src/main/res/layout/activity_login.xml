@@ -9,5 +9,39 @@
         tools:context=".LoginActivity">
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:background="@drawable/login_background_gradient"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/ic_launcher"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/practice"/>
+
+
+
     </LinearLayout>
+
+
+
 </layout>
